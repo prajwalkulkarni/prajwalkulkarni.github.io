@@ -20,6 +20,25 @@ export default function Projects() {
               number={`${idx + 1}`}
             />
           ))}
+          
+          
+        </div>
+        <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-900">
+          <h1 className=" text-5xl md:text-6xl font-bold py-20 text-center md:text-left">
+            React Projects
+          </h1>
+        </div>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
+          {userData.reactProjects.map((proj, idx) => (
+            <ProjectCard
+              title={proj.title}
+              link={proj.link}
+              imgUrl={proj.imgUrl}
+              number={`${idx + 1}`}
+            />
+          ))}
+          
+          
         </div>
       </div>
     </section>
@@ -28,7 +47,7 @@ export default function Projects() {
 
 const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <a href={link} target='_blank' className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <img
