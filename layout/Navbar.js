@@ -39,7 +39,7 @@ export default function Navbar() {
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+              } hover:text-black dark:hover:text-white`}
             >
               About{" "}
               {router.asPath === "/about" && (
@@ -65,7 +65,7 @@ export default function Navbar() {
                 router.asPath === "/projects"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+              } hover:text-black dark:hover:text-white`}
             >
               Projects
               {router.asPath === "/projects" && (
@@ -91,7 +91,7 @@ export default function Navbar() {
                 router.asPath === "/timeline"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+              } hover:text-black dark:hover:text-white`}
             >
               Timeline{" "}
               {router.asPath === "/timeline" && (
@@ -117,7 +117,7 @@ export default function Navbar() {
                 router.asPath === "/contact"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+              } hover:text-black dark:hover:text-white`}
             >
               Contact
               {router.asPath === "/contact" && (
@@ -143,6 +143,7 @@ export default function Navbar() {
           
           <a
             href={userData.socialLinks.twitter}
+            target="_blank"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -158,6 +159,7 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.linkedin}
+            target="_blank"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
