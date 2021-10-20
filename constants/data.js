@@ -81,14 +81,14 @@ const userData = {
         title: "University",
         company: "BMSCE, Bengaluru",
         year: "2018-2022",
-        companyLink: "https://bmsce.in",
+        companyLink: "https://bmsce.ac.in",
         desc: "Majoring in Information Science and Engineering.",
       },
       {
         title: "App dev",
         company: "Phase Shift",
         year: "2019",
-        companyLink: "https://intel.com",
+        companyLink: "https://play.google.com/store/apps/details?id=com.bmsce.phaseshift&hl=en_IN&gl=US",
         desc: "Volunteerd and developed mobile application for BMSCE's annual tech symposium, PhaseShift.",
       },
       {
