@@ -4,14 +4,14 @@ export default function Timeline() {
   return (
     <section className="bg-white dark:bg-gray-800 overflow-x-hidden">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-6xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-5xl md:text-6xl font-bold py-20 text-center md:text-left dark:text-white">
           Developer Profiles
         </h1>
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 ">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-2">
 
-          <div className="md: w-3/4 container p-2 mx-auto m-2 bg-gray-100 rounded-lg shadow-xl dark:bg-gray-700">
+          <div className="md: w-3/4 container p-2 mx-auto m-2 bg-gray-100 rounded-lg shadow-lg dark:bg-gray-700">
             <a
               href={userData.socialLinks.github}
               target="_blank"
@@ -37,7 +37,7 @@ export default function Timeline() {
             </a>
           </div>
 
-          <div className="md: w-3/4 p-2 container m-2 mx-auto bg-gray-100 rounded-lg shadow-xl dark:bg-gray-700">
+          <div className="md: w-3/4 p-2 container m-2 mx-auto bg-gray-100 rounded-lg shadow-lg dark:bg-gray-700">
             <a
               href={userData.socialLinks.stackoverflow}
               target="_blank"
@@ -56,7 +56,7 @@ export default function Timeline() {
 
                 </div>
 
-                <div className='text-5xl font-bold p-3 dark:text-white'>
+                <div className='text-3xl p-2 md:text-5xl font-bold p-3 dark:text-white'>
                   <p>Stackoverflow</p>
                 </div>
 
