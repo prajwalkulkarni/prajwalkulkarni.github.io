@@ -9,6 +9,7 @@
         -webkit-animation-iteration-count: infinite;
         animation-iteration-count: infinite; */
         animation: scrollSmall 25s linear infinite;
+        -webkit-animation: scrollSmall 25s linear infinite;
       }
 
 }
@@ -20,7 +21,7 @@
     }
   
     to {
-      transform: translateX(-100%)
+      transform: translateX(calc(-1 * 33vw * 7))
     }
   }
   
