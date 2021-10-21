@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Prajwal Kulkarni - Developer, Writer, Creator and YouTuber",
-    description: `I've been developing websites for 5 years straight. Get in touch with me to know more.`,
+    title: "Prajwal Kulkarni - Developer, Writer and Creator.",
+    description: `I've been developing websites and mobile apps for quite some time now.`,
     image: "/assets/images/feature.jpg",
     type: "website",
     ...customMeta,
@@ -22,11 +22,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`https://prajwalkulkarni.github.io`}
         />
         <link
           rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
+          href={`https://prajwalkulkarni.github.io`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
@@ -35,7 +35,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta property="og:image" content={meta.image} />
         
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@mannupaaji" />
+        <meta name="twitter:site" content="@prajwalinbizz" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
