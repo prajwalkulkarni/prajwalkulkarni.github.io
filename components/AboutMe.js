@@ -1,6 +1,6 @@
 import React from "react";
 import userData from "../constants/data";
-
+import Image from 'next/image'
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800 w-full">
@@ -42,54 +42,102 @@ export default function AboutMe() {
                 Tech Stack/Languages
               </h1>
               <div className="flex flex-row flex-wrap mt-8">
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                  className="h-20 w-20 mx-4 my-4"
-                />
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
+                <div style={{ width: '5rem', margin: '1rem' }}>
+                  <Image
+                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                    height={288}
+                    width={288}
+                    layout="responsive"
+                  />
+                </div>
               </div>
             </div>
           </div>

@@ -53,7 +53,7 @@ const TimelineCard = ({ title, desc, year, company, companyLink }) => {
           <h1 className="text-4xl text-gray-200 font-bold dark:text-gray-800">
             {title}
           </h1>
-          <a href={companyLink} target="_blank" className="text-gray-500">
+          <a href={companyLink} target="_blank" rel="noreferrer" className="text-gray-500">
             {company}
           </a>
         </div>

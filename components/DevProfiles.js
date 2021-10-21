@@ -15,6 +15,7 @@ export default function Timeline() {
             <a
               href={userData.socialLinks.github}
               target="_blank"
+              rel="noreferrer"
               className="text-base font-normal text-gray-800 dark:text-gray-300"
             >
               <div className='flex flex-row flex-wrap'>
@@ -41,6 +42,7 @@ export default function Timeline() {
             <a
               href={userData.socialLinks.stackoverflow}
               target="_blank"
+              rel="noreferrer"
               className="text-base font-normal text-gray-800 dark:text-gray-300"
             >
               <div className='flex flex-row flex-wrap'>
