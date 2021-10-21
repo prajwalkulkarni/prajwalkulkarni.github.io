@@ -17,7 +17,7 @@ export default function Contact() {
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight">Get in touch</h2>
             <div className="text-gray-700 mt-8">
-              Got something to say? or perhaps something to ask? Fill in the details or send me an <span className="underline">email</span> instead. I'll get back ASAP.
+              Got something to say? or perhaps something to ask? Fill in the details or send me an <span className="underline">email</span> instead. I&apos;ll get back ASAP.
             </div>
           </div>
           <div className="mt-8 text-center flex justify-center">
