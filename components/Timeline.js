@@ -13,7 +13,7 @@ export default function Timeline() {
         <div className={`md:flex w-screen`}>
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
-            <div className={`md:flex flex-none m-3 ${styles.scrollBg}`}>
+            <div className={`md:flex flex-none m-3 ${styles.scrollBg}`} key={idx}>
               <TimelineCard
                 key={idx}
                 title={exp.title}
