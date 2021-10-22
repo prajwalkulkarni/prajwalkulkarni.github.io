@@ -4,5 +4,5 @@ module.exports = {
   images: {
     domains: ['raw.githubusercontent.com'],
   },
-  assetPrefix: isProd ? 'https://cdn.statically.io/gh/NaveenDA/naveenda.github.io/gh-pages/' : '',
+  assetPrefix: isProd ? 'https://cdn.statically.io/gh/prajwalkulkarni/prajwalkulkarni.github.io/gh-pages/' : '',
 }
