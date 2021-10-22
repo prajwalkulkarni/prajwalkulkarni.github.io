@@ -2,6 +2,7 @@ import React from "react";
 import userData from "../constants/data";
 import Image from "next/image";
 export default function Projects() {
+  
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -48,12 +49,16 @@ export default function Projects() {
 }
 
 const ProjectCard = ({ title, link, imgUrl, number }) => {
+  const myLoader = ({ src, width, quality }) => {
+    return `${src}?w=${width}&q=${quality || 75}`
+  }
   return (
     <a href={link} target='_blank' rel="noreferrer" className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
           <div className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full">
           <Image
+            loader={myLoader}
             src={imgUrl}
             alt="portfolio"
             layout="fill"

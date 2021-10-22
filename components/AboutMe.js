@@ -2,6 +2,10 @@ import React from "react";
 import userData from "../constants/data";
 import Image from 'next/image'
 export default function AboutMe() {
+
+  const myLoader = ({ src, width, quality }) => {
+    return `${src}?w=${width}&q=${quality || 75}`
+  }
   return (
     <section className="bg-white dark:bg-gray-800 w-full">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -44,6 +48,7 @@ export default function AboutMe() {
               <div className="flex flex-row flex-wrap mt-8">
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                     height={288}
@@ -53,6 +58,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
                     height={288}
@@ -62,6 +68,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                     height={288}
@@ -71,6 +78,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                     height={288}
@@ -80,6 +88,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                     height={288}
@@ -89,6 +98,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
                     height={288}
@@ -98,6 +108,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
                     height={288}
@@ -107,6 +118,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                     height={288}
@@ -116,6 +128,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
                     height={288}
@@ -125,6 +138,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                     height={288}
@@ -134,6 +148,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
                     height={288}
@@ -143,6 +158,7 @@ export default function AboutMe() {
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
+                    loader={myLoader}
                     alt="Tech stack icons"
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                     height={288}
