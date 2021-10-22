@@ -47,41 +47,41 @@
 #         with:
 #           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #           BRANCH: gh-pages # The branch the action should deploy to.
-#           FOLDER: public # The folder the action should deploy.
+#           FOLDER: build # The folder the action should deploy.
 #           CLEAN: true # Automatically remove deleted files from the deploy branch
 
-name: Build and Deploy
-on: [push]
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
-  build-and-deploy:
+  build:
+
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./portfolio
+
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x, 16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
-        with:
-          persist-credentials: false
-
-      - name: Cache  💾
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}
-
-      - name: Build
-        run: |
-           npm install
-           npm run build
-        env:
-            CI: true
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.6.2
-        with:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: public # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build
+    
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.5
+      with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.
+    
