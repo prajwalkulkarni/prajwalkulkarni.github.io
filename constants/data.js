@@ -3,6 +3,7 @@ const userData = {
     name: "Prajwal Kulkarni",
     designation: "Full-Stack Developer",
     avatarUrl: "/assets/images/feature.jpg",
+    // avatarUrl:"https://ibb.co/4d08bD3",
     email: "prajwalkulkarni76@gmail.com",
     phone: "+91 123456789",
     address: "Bengaluru, Karnataka, India.",
@@ -11,21 +12,25 @@ const userData = {
         title: "Splitster",
         link: "https://play.google.com/store/apps/details?id=com.app.splitster&hl=en_IN&gl=US",
         imgUrl: "/assets/images/splitster.png",
+        // imgUrl:"https://ibb.co/mBGMbZs"
       },
       {
         title: "Textual",
         link: "https://play.google.com/store/apps/details?id=com.textual.chatapp",
         imgUrl: "/assets/images/textual.png",
+        // imgUrl:"https://ibb.co/6NDC9NR"
       },
       {
         title: "Invoiicify",
         link: "https://invoiicify.gq",
         imgUrl: "/assets/images/invoiicify.png",
+        // imgUrl:"https://ibb.co/y62pTVH"
       },
       {
         title: "Covid stats and info",
         link: "https://covidstatsandinfo.netlify.app/",
         imgUrl: "/assets/images/covidstats.png",
+        // imgUrl:"https://ibb.co/DfHgxhZ"
       }
     ],
     reactProjects:[
@@ -33,21 +38,25 @@ const userData = {
         title: "Todo",
         link: "https://todo-tau-lilac.vercel.app/",
         imgUrl: "/assets/images/todo.png",
+        // imgUrl:"https://ibb.co/Syy6Wwx"
       },
       {
         title: "Delicioso",
         link: "https://delicioso.vercel.app/",
         imgUrl: "/assets/images/delicioso.png",
+        // imgUrl:"https://ibb.co/2Ndj3QS"
       },
       {
         title: "Your quotes",
         link: "https://todo-a1752.web.app/quotes",
         imgUrl: "/assets/images/yourquotes.png",
+        // imgUrl:"https://ibb.co/dr5C82C"
       },
       {
         title: "Foto factory",
         link: "https://foto-factory-nextjs.vercel.app/",
         imgUrl: "/assets/images/fotofactory.png",
+        // imgUrl:"https://ibb.co/J3N8CK5"
       },
 
     ],
