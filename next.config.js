@@ -8,5 +8,5 @@ module.exports = {
     loader:'imgix',
     path:''
   },
-  assetPrefix: isProd ? 'https://cdn.statically.io/gh/prajwalkulkarni/prajwalkulkarni.github.io/gh-pages/' : '',
+  // assetPrefix: isProd ? 'https://cdn.statically.io/gh/prajwalkulkarni/prajwalkulkarni.github.io/gh-pages/' : '',
 }
