@@ -109,7 +109,7 @@ const userData = {
       },
       {
         title: "Technical writing",
-        company: "Medium",
+        company: "Medium, Freecodecamp",
         year: "2020",
         companyLink: "https://medium.com/@prajwalkulkarni_",
         desc: "Started writing technical articles on various platforms.",
