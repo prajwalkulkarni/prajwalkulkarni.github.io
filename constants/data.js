@@ -12,10 +12,15 @@ const userData = {
         link: "https://play.google.com/store/apps/details?id=com.app.splitster&hl=en_IN&gl=US",
         imgUrl: "/assets/images/splitster.png",
       },
+      // {
+      //   title: "Textual",
+      //   link: "https://play.google.com/store/apps/details?id=com.textual.chatapp",
+      //   imgUrl: "/assets/images/textual.png",
+      // },
       {
-        title: "Textual",
-        link: "https://play.google.com/store/apps/details?id=com.textual.chatapp",
-        imgUrl: "/assets/images/textual.png",
+        title:"G-Calendar clone",
+        link:'https://csb-0m117.netlify.app/',
+        imgUrl:'/assets/images/calendar-clone.png'
       },
       {
         title: "NextPortal",
@@ -102,7 +107,7 @@ const userData = {
         title: "Technical writing",
         company: "Medium, Freecodecamp",
         year: "2020",
-        companyLink: "https://medium.com/@prajwalkulkarni_",
+        companyLink: "https://linktr.ee/prajwalk",
         desc: "Started writing technical articles on various platforms.",
       },
       {
