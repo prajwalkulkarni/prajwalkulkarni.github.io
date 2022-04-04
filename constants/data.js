@@ -62,7 +62,9 @@ const userData = {
       description: [
         `My interest towards computers started back when I was in 9th grade. My journey on the internet began as a blogger, back when I used to run a tech blog writing and sharing articles on everything I learned. `,
         `This helped me gain good connections amongst the fraternity and mint some money as well :P. Eventually, things got serious when I got into coding and development. I've always wanted to(still do) build cool stuff that could impact/be used by lots of people.`,
-        `Initially I began developing apps and have built and published several apps for Android. I always take keen interesting in learning new things and use the power of code to make this world better place.`,
+        `Initially I began developing apps and have built and published several apps for Android. Lately I've grown interest towards open source projects and often contribute to them.
+        This helps be better understand different codebases. 
+        I always take keen interest in learning new things and use the power of code to make this world better place.`,
       ],
       currentProject: "Tailwind Master Kit",
       currentProjectUrl: "https://tailwindmasterkit.com",
