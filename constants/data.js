@@ -28,9 +28,9 @@ const userData = {
         imgUrl: "/assets/images/npm.png",
       },
       {
-        title: "Covid stats and info",
-        link: "https://covidstatsandinfo.netlify.app/",
-        imgUrl: "/assets/images/covidstats.png",
+        title: "EduWall",
+        link: "https://eduwall.in/",
+        imgUrl: "/assets/images/eduwall.png",
       }
     ],
     reactProjects:[
