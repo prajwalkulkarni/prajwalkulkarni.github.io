@@ -43,16 +43,16 @@ export default function AboutMe() {
           <div>
             <div className="flex flex-col">
               <h1 className="inline-block px-2 py-1 text-3xl font-bold bg-red-500 rounded-md text-gray-50">
-                Tech Stack/Languages
+                Frameworks/Libraries/Languages
               </h1>
               <div className="flex flex-row flex-wrap mt-8">
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                    height={288}
-                    width={288}
+                    alt="HTML5"
+                    src="https://img.icons8.com/color/240/html-5--v1.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -60,10 +60,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                    height={288}
-                    width={288}
+                    alt="CSS3"
+                    src="https://img.icons8.com/color/240/css3.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -71,10 +71,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                    height={288}
-                    width={288}
+                    alt="JavaScript"
+                    src="https://img.icons8.com/fluency/240/javascript.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -82,10 +82,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                    height={288}
-                    width={288}
+                    alt="TypeScript"
+                    src="https://img.icons8.com/color/240/typescript.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -93,10 +93,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                    height={288}
-                    width={288}
+                    alt="MongoDB"
+                    src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -104,10 +104,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
-                    height={288}
-                    width={288}
+                    alt="ExpressJS"
+                    src="https://img.icons8.com/color/240/express-js.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -115,10 +115,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                    height={288}
-                    width={288}
+                    alt="ReactJS"
+                    src="https://img.icons8.com/color/240/react-native.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -126,10 +126,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
-                    height={288}
-                    width={288}
+                    alt="NodeJS"
+                    src="https://img.icons8.com/fluency/240/node-js.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -137,10 +137,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"
-                    height={288}
-                    width={288}
+                    alt="TailwindCSS"
+                    src="https://img.icons8.com/color/240/tailwind_css.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -148,10 +148,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png"
-                    height={288}
-                    width={288}
+                    alt="npm"
+                    src="https://img.icons8.com/color/240/npm.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -159,10 +159,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                    height={288}
-                    width={288}
+                    alt="Git"
+                    src="https://img.icons8.com/color/240/git.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -170,10 +170,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png"
-                    height={288}
-                    width={288}
+                    alt="Redux"
+                    src="https://img.icons8.com/color/240/redux.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -181,10 +181,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/aws/aws.png"
-                    height={288}
-                    width={288}
+                    alt="AWS - Lambda/API Gateway/S3/EC2/CloudWatch"
+                    src="https://img.icons8.com/color/240/amazon-web-services.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -192,10 +192,10 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
-                    height={288}
-                    width={288}
+                    alt="GraphQL"
+                    src="https://img.icons8.com/color/240/graphql.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
@@ -204,20 +204,20 @@ export default function AboutMe() {
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                    height={288}
-                    width={288}
+                    alt="Firebase"
+                    src="https://img.icons8.com/color/240/firebase.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
                 <div style={{ width: '5rem', margin: '1rem' }}>
                   <Image
                     loader={myLoader}
-                    alt="Tech stack icons"
-                    src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                    height={288}
-                    width={288}
+                    alt="Webpack"
+                    src="https://img.icons8.com/color/240/webpack.png"
+                    height={240}
+                    width={240}
                     layout="responsive"
                   />
                 </div>
