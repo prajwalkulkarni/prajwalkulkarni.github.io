@@ -61,7 +61,7 @@ const userData = {
     description: [
       `My interest towards computers started back when I was in 9th grade. My journey on the internet began as a blogger, back when I used to run a tech blog writing and sharing articles on everything I learned. `,
       `This helped me network and grow connections amongst the fraternity and make some money as well, haha. Eventually, things got serious when I got into coding and development. I've always wanted to(still do) build cool stuff that could impact/be used by lots of people.`,
-      `Initially I began developing apps for Android, tried my hands-on backend and iOS development and currently pursuing frontend web development. I'm also an open source enthusiast and often contribute to it.
+      `Initially I began developing apps for Android, tried my hands-on backend and iOS development and currently pursuing frontend web development. I'm also an open source enthusiast and often make contributions to the projects I use/find interesting.
         I always take keen interest in learning new things and use the power of code to make this a world better place.`,
     ],
     currentProject: "NA",
