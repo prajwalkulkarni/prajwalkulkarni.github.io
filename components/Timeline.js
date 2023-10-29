@@ -56,6 +56,7 @@ const TimelineCard = ({
           href={companyLink}
           target="_blank"
           className="text-blue-400 px-2.5 underline"
+          rel="noreferrer"
         >
           {company}
         </a>
