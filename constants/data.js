@@ -12,11 +12,11 @@ const userData = {
       link: "https://bingenow.net",
       imgUrl: "/assets/images/bingenow.png",
     },
-    // {
-    //   title: "Textual",
-    //   link: "https://play.google.com/store/apps/details?id=com.textual.chatapp",
-    //   imgUrl: "/assets/images/textual.png",
-    // },
+    {
+      title: "CLI Blackjack",
+      link: "https://www.npmjs.com/package/blackjack21",
+      imgUrl: "/assets/images/blackjack.png",
+    },
     {
       title: "Take a Break",
       link: "https://chrome.google.com/webstore/detail/take-a-break/oifmahnepecgegpdiomjikkmfmnlbdjo",
