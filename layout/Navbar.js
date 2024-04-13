@@ -111,6 +111,11 @@ export default function Navbar() {
               )}
             </a>
           </Link>
+          <Link href="/assets/resume/Prajwal_resume.pdf">
+            <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+              Resume
+            </a>
+          </Link>
           <Link href="/contact">
             <a
               className={`text-base  ${
@@ -140,7 +145,6 @@ export default function Navbar() {
         </div>
 
         <div className="space-x-2 flex flex-row items-center">
-          
           <a
             href={userData.socialLinks.twitter}
             target="_blank"
@@ -207,7 +211,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block md:hidden mt-4">
+      <div className="space-x-4 block md:hidden mt-4">
         <Link href="/about">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             About
@@ -221,6 +225,11 @@ export default function Navbar() {
         <Link href="/timeline">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Timeline
+          </a>
+        </Link>
+        <Link href="/assets/resume/Prajwal_resume.pdf">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+            Resume
           </a>
         </Link>
         <Link href="/contact">

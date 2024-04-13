@@ -1,6 +1,6 @@
 import userData from "../constants/data";
 import React from "react";
-import styles from "./Timeline.module.css";
+
 export default function Timeline() {
   return (
     <section className="overflow-x-hidden bg-white dark:bg-gray-800">
@@ -11,7 +11,7 @@ export default function Timeline() {
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 flex justify-center mt-24">
         {/* Experience card */}
-        <ol className="relative border-l border-gray-200 dark:border-gray-700">
+        <ol className="relative border-l border-gray-200 dark:border-gray-700 mx-4">
           {userData.experience.map((exp, idx) => (
             <TimelineCard
               key={idx}
