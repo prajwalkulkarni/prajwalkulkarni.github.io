@@ -71,7 +71,7 @@ const userData = {
     {
       title: "Software Engineer - Frontend",
       company: "KredX",
-      year: "2022",
+      year: "2022 - Present",
       companyLink: "https://kredx.com",
       desc: "Started full time career as a software engineer",
     },
