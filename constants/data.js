@@ -69,6 +69,13 @@ const userData = {
   },
   experience: [
     {
+      title: "Software Engineer - Frontend",
+      company: "KredX",
+      year: "2022",
+      companyLink: "https://kredx.com",
+      desc: "Started full time career as a software engineer",
+    },
+    {
       title: "WWDC 2021",
       company: "Apple",
       year: "2021",
