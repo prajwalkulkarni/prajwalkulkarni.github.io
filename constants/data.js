@@ -70,7 +70,7 @@ const userData = {
   experience: [
     {
       title: "Software Engineer - Frontend",
-      company: "KredX",
+      company: "Meesho",
       year: "2024 - Present",
       companyLink: "https://meesho.com",
       desc: "Working as a frontend developer on the logistics platform - Valmo",
