@@ -71,7 +71,14 @@ const userData = {
     {
       title: "Software Engineer - Frontend",
       company: "KredX",
-      year: "2022 - Present",
+      year: "2024 - Present",
+      companyLink: "https://meesho.com",
+      desc: "Working as a frontend developer on the logistics platform - Valmo",
+    },
+    {
+      title: "Software Engineer - Frontend",
+      company: "KredX",
+      year: "2022 - 2024",
       companyLink: "https://kredx.com",
       desc: "Started full time career as a software engineer",
     },
