@@ -111,7 +111,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/assets/resume/Prajwal_resume.pdf">
+          <Link href="/assets/resume/Prajwal_resume_updated.pdf">
             <a className="text-base font-normal text-gray-600 dark:text-gray-300">
               Resume
             </a>
