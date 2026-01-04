@@ -9,6 +9,6 @@ module.exports = {
     path: "",
   },
   assetPrefix: isProd
-    ? "//cdn.statically.io/gh/prajwalkulkarni/prajwalkulkarni.github.io/gh-pages/"
+    ? "https://cdn.statically.io/gh/prajwalkulkarni/prajwalkulkarni.github.io@gh-pages/"
     : "",
 };
