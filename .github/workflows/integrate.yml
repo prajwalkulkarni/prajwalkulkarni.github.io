@@ -1,53 +1,3 @@
-# name: Deploy to Github Pages
-
-# on:
-#   push:
-#     branches:
-#       - main
-
-#   workflow_dispatch:
-
-# jobs:
-#   deployment:
-#     runs-on: ubuntu-latest
-
-#     strategy:
-#       matrix:
-#         node-version: [14.x]
-
-#     steps:
-#       - uses: actions/checkout@v2
-
-#       - name: Use Node.js ${{ matrix.node-version }}
-#         uses: actions/setup-node@v1
-#         with:
-#           node-version: ${{ matrix.node-version }}
-
-#       - name: Use NPM 7
-#         run: npm i -g npm@latest
-
-#       - name: Cache dependencies
-#         uses: actions/cache@v2
-#         with:
-#           path: ~/.npm
-#           key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
-#           restore-keys: |
-#             ${{ runner.OS }}-node-
-#             ${{ runner.OS }}-
-
-#       - name: Build
-#         run: |
-#           npm install
-#           npm run build
-
-#       - name: Deploy 🚀
-#         uses: JamesIves/github-pages-deploy-action@3.6.2
-#         with:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           BRANCH: gh-pages # The branch the action should deploy to.
-#           FOLDER: build # The folder the action should deploy.
-#           CLEAN: true # Automatically remove deleted files from the deploy branch
-
 name: Node.js CI
 
 on:
@@ -74,6 +24,12 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run build
+        env:
+          GIT_COMMIT_SHA: ${{ github.sha }}
+          NEXT_PUBLIC_ASSET_PREFIX: https://prajwalkulkarni-github-io.vercel.app
+
+      - name: Wait for vercel assets
+        run: sleep 60
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
