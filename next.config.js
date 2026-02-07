@@ -8,13 +8,7 @@ module.exports = {
     loader: "imgix",
     path: "",
   },
-  assetPrefix: isProd ? "https://prajwalkulkarni-github-io.vercel.app/" : "",
-  generateBuildId: async () => {
-    // Uses the latest git commit hash as the build ID
-    return (
-      process.env.VERCEL_GIT_COMMIT_SHA ||
-      process.env.GIT_COMMIT_SHA ||
-      "development"
-    );
-  },
+  assetPrefix: isProd
+    ? "https://cdn.jsdelivr.net/gh/prajwalkulkarni/prajwalkulkarni.github.io@gh-pages/"
+    : "",
 };
