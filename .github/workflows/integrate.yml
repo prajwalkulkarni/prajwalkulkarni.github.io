@@ -28,9 +28,6 @@ jobs:
           GIT_COMMIT_SHA: ${{ github.sha }}
           NEXT_PUBLIC_ASSET_PREFIX: https://prajwalkulkarni-github-io.vercel.app
 
-      - name: Wait for vercel assets
-        run: sleep 30
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
