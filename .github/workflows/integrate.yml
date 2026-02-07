@@ -1,39 +1,39 @@
-name: Node.js CI
+# name: Node.js CI
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+# on:
+#   push:
+#     branches: [main]
+#   pull_request:
+#     branches: [main]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [14.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+#     strategy:
+#       matrix:
+#         node-version: [14.x]
+#         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-    steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - run: npm ci
-      - run: npm run build
-        env:
-          GIT_COMMIT_SHA: ${{ github.sha }}
-          NEXT_PUBLIC_ASSET_PREFIX: https://prajwalkulkarni-github-io.vercel.app
+#     steps:
+#       - uses: actions/checkout@v4
+#       - name: Use Node.js ${{ matrix.node-version }}
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: ${{ matrix.node-version }}
+#           cache: "npm"
+#       - run: npm ci
+#       - run: npm run build
+#         env:
+#           GIT_COMMIT_SHA: ${{ github.sha }}
+#           NEXT_PUBLIC_ASSET_PREFIX: https://prajwalkulkarni-github-io.vercel.app
 
-      - name: Wait for vercel assets
-        run: sleep 60
+#       - name: Wait for vercel assets
+#         run: sleep 30
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages # The branch the action should deploy to.
-          folder: out # The folder the action should deploy.
+#       - name: Deploy 🚀
+#         uses: JamesIves/github-pages-deploy-action@4.1.5
+#         with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: gh-pages # The branch the action should deploy to.
+#           folder: out # The folder the action should deploy.
