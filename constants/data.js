@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "prajwalkulkarni",
   name: "Prajwal Kulkarni",
-  designation: "Frontend Developer",
+  designation: "Software Engineer",
   avatarUrl: "/assets/images/avatar.jpg",
   email: "prajwalkulkarni76@gmail.com",
   phone: "+91 8105976325",
