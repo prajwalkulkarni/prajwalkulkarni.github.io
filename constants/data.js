@@ -57,7 +57,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a 24 year old software developer, mostly interested in everything web, currently working as a frontend developer at Meesho.",
+      "I'm a 25 year old software developer, mostly interested in everything web, currently working as a frontend developer at Meesho.",
     description: [
       `My interest towards computers started back when I was in 9th grade. My journey on the internet began as a blogger, back when I used to run a tech blog writing and sharing articles on everything I learned. `,
       `This helped me network and grow connections amongst the fraternity and make some money as well, haha. Eventually, things got serious when I got into coding and development. I've always wanted to(still do) build cool stuff that could impact/be used by lots of people.`,
