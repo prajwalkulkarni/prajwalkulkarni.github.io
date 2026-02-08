@@ -111,7 +111,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/assets/resume/Prajwal_resume_revised.pdf">
+          <Link href="/assets/resume/Prajwal_resume%20_revised.pdf">
             <a className="text-base font-normal text-gray-600 dark:text-gray-300">
               Resume
             </a>
@@ -227,7 +227,7 @@ export default function Navbar() {
             Timeline
           </a>
         </Link>
-        <Link href="/assets/resume/Prajwal_resume_revised.pdf">
+        <Link href="/assets/resume/Prajwal_resume%20_revised.pdf">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Resume
           </a>
