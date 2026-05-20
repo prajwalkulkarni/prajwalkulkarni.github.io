@@ -135,7 +135,7 @@ const userData = {
   ],
   resumeUrl: "",
   socialLinks: {
-    twitter: "https://twitter.com/prajwalinbizz",
+    twitter: "https://x.com/prajwalinbizz",
     linkedin: "https://linkedin.com/in/prajwal-kulkarni",
     github: "https://github.com/prajwalkulkarni",
     stackoverflow: "https://stackoverflow.com/users/12828566/prajwal-kulkarni",
